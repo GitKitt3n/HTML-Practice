@@ -1,7 +1,19 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  background-color: #fbb1bd;
+  width: 100%;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
 div {
   width: 200px;
   height: 200px;
   background-color: #fae0e4;
+  margin: 10px;
 }
 
 #one {
@@ -9,7 +21,8 @@ div {
   border-width: 5px;
   border-color: #ff5c8a;
   border-style: groove;
-  box-sizing: border-box; /*exact size of element*/
+  box-sizing: border-box;
+  text-align: center; /*exact size of element*/
 }
 
 #two {
@@ -25,9 +38,31 @@ div {
   border: 10px inset #fae0e4;
   border-right-style: dotted;
   border-radius: 50%;
+  text-align: center;
+}
+#four {
+  background-color: #f8d2d8;
+  border-left: 6px #ff477e solid;
+  padding-left: 50px;
 }
 
-h1 {
-  background-color: #fbb1bd;
-  width: 100%;
+span {
+  margin-left: 25px;
+  margin-top: 30px;
 }
+
+/*Button Shorthand Property*/
+#buttonOne {
+  padding: 20px; /*All four sides*/
+}
+#buttonTwo {
+  padding: 20px 5px; /*vertical | horizontal*/
+}
+#buttonThree {
+  padding: 20px 5px 10px; /*top | horizontal | bottom*/
+}
+#buttonFour {
+  padding: 20px 10px 0px 10px; /*top  right bottom left*/
+}
+/*padding is space between content box and its border*/
+/*margin is spacing on the outside of border*/
