@@ -4,6 +4,29 @@ div {
   background-color: #fae0e4;
 }
 
+#one {
+  background-color: #fae0e4;
+  border-width: 5px;
+  border-color: #ff5c8a;
+  border-style: groove;
+  box-sizing: border-box; /*exact size of element*/
+}
+
+#two {
+  background-color: #f7cad0;
+  border-color: #fc6e98;
+  border-width: 8px;
+  border-style: dashed solid;
+  border-left-color: #ff0a54;
+}
+
+#three {
+  background-color: #fbb1bd;
+  border: 10px inset #fae0e4;
+  border-right-style: dotted;
+  border-radius: 50%;
+}
+
 h1 {
   background-color: #fbb1bd;
   width: 100%;
