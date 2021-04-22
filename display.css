@@ -1,0 +1,7 @@
+span {
+  background-color: rgb(252, 207, 215);
+  border: 1px solid black;
+  width: 500px;
+} /* -block level elements take up whole space
+    - in-line elements share space
+    -inline-block margin and padding are respected*/

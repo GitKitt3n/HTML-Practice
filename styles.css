@@ -4,11 +4,16 @@ body {
 }
 
 section {
-  color: aquamarine;
+  color: rgb(31, 133, 99);
 }
 
 form {
   color: crimson;
+}
+
+button {
+  color: rgb(115, 2, 180);
+  background-color: rgb(203, 181, 209);
 }
 
 button {
@@ -39,10 +44,6 @@ h3 {
 }
 
 /*---Buttons and Links---*/
-button {
-  color: rgb(115, 2, 180);
-  background-color: rgb(203, 181, 209);
-}
 
 a {
   text-decoration: none;

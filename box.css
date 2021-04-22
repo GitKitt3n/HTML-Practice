@@ -21,8 +21,8 @@ div {
   border-width: 5px;
   border-color: #ff5c8a;
   border-style: groove;
-  box-sizing: border-box;
-  text-align: center; /*exact size of element*/
+  box-sizing: border-box; /*exact size of element*/
+  text-align: center;
 }
 
 #two {
