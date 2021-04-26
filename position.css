@@ -1,3 +1,6 @@
+body {
+  display: block;
+}
 div {
   width: 100px;
   height: 100px;
@@ -17,12 +20,14 @@ div {
 }
 
 #relative #middle {
+  /*relative stays in the flow*/
   position: relative;
   top: 50px;
   left: 50px;
 }
 
 #absolute {
+  /*gets removed from flow and looks for parent it can move around*/
   position: relative;
 }
 #absolute #middle {
@@ -32,7 +37,6 @@ div {
   left: 50px;
 }
 /*positioned means: has a position set to anything other than static*/
-
 #fixed #middle {
   /*positioned relative to initial containing block*/
   position: fixed;
@@ -40,10 +44,16 @@ div {
   left: 0px;
   width: 100%;
   margin: 0;
+  bottom: 800px;
   border-top-style: none;
 }
-
 #sticky #middle {
+  position: -webkit-sticky;
   position: sticky;
   background-color: skyblue;
+  top: 20px;
+}
+
+#top {
+  margin-top: 120px;
 }
