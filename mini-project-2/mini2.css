@@ -1,0 +1,95 @@
+body {
+  background-color: yellow;
+  margin: 0;
+  display: block;
+}
+
+article {
+  padding: 10px;
+}
+marquee {
+  background-color: blueviolet;
+  color: white;
+  direction: left;
+
+  width: 100%;
+  height: 16px;
+}
+.first-head {
+  color: red;
+  text-align: center;
+
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.second-head {
+  font-size: 24px;
+  font-weight: bold;
+  color: blue;
+  float: right;
+  font-style: italic;
+}
+
+p::first-letter {
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+}
+p {
+  display: block;
+}
+
+.third-head {
+  font-size: 48px;
+  font-weight: bold;
+  color: blue;
+  font-style: italic;
+  float: right;
+}
+
+.fourth-head {
+  color: red;
+  float: right;
+}
+
+a:link {
+  color: red;
+}
+.special {
+  color: red;
+}
+
+table {
+  margin: 10px;
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  white-space: normal;
+  line-height: normal;
+  font-weight: normal;
+  font-size: medium;
+  font-style: normal;
+  color: -internal-quirk-inherit;
+  text-align: start;
+  border-spacing: 2px;
+  border-color: grey;
+  font-variant: normal;
+  background-color: cyan;
+  color: black;
+  animation-name: tablecolor;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes tablecolor {
+  from {
+    background-color: cyan;
+    color: black;
+  }
+  to {
+    background-color: green;
+    color: white;
+  }
+}
